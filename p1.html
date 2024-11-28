@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>Environment</title>
+</head>
+<li><a href="photoGallery.html">BACK</a></li>
+<style>
+
+@keyframes zoomout
+{
+from{transform:scale(3)}
+to{transform:scale(1)}
+}
+
+.zoompic
+{
+width:30%;
+margin:3%;
+box-shadow:10px 10px 10px gray;
+transition:0.50;
+animation:zoomout 1.50 ease-in-out;
+}
+
+.picstyle:hover
+{
+transform:scale(1.50);
+}
+
+</style>
+<body style="text-align:center">
+<div>
+
+<img class="zoompic"src="images/p1.jpg"alt="nature pic"border="0"
+
+</body>
+</html>
+
