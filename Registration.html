@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<style>
+header
+{
+text-align:center;
+}
+#loginform
+{
+text-align:center;
+//background:red;
+width:40%;
+margin:auto;
+height:auto;
+border:1px solid black;
+border-radius:10px;
+box-shadow:10px 10px 10px gray;
+}
+
+#loginform table
+{
+margin:auto;
+width:auto;
+}
+
+
+</style>
+
+
+<body>
+<li><a href="Index.html">Home</a></li>
+<header>
+<h1>Registration form</h1>
+</header>
+
+<div id="loginform">
+
+<table border="0"cellpadding="20">
+
+<form action="http://tataplay/user/get.php" method="post">
+<tr>
+<td></td><td></td>
+</tr>
+
+
+<tr>
+<td><label for="username">User Name</label></td>
+<td><input type="text" id="username"placeholder="Type Name Hare"title="Type Name"></td>
+</tr>
+
+<tr>
+<td><label for="password">Password</label></td>
+<td><input type="password" id="username"placeholder="Type Password Hare"title="Type Password....!"></td>
+</tr>
+
+<tr>
+<td><label for="gender">Gender</label></td>
+<td>Male<input type="radio"name="Gender"value="Male">
+Female<input type="radio"name="Gender"value="Female">
+Others<input type="radio"name="Gender"value="Others">
+</td>
+</tr>
+
+
+<tr>
+<td><label for ="Hobby">Hobby</label></td>
+
+<td>
+<select>
+<option value="Reading">Reading</option>
+<option value="Writing">Writing</option>
+<option value="Dancing">Dancing</option>
+<option value="Sports">Sports</option>
+</select>
+</td>
+</tr>
+
+
+
+<tr>
+<td><label for="Mail">Mail</label></td>
+<td><input type="email">
+</td>
+</tr>
+
+
+<tr>
+<td><label for="message">Massage</label></td>
+<td><textarea></textarea></td>
+</tr>
+
+<tr>
+<td><label for="city">City</label></td>
+<td>
+<select>
+<option value="Delhi">Delhi</option>
+<option value="Jaipur">Jaipur</option>
+<option value="Bangaluru">Bangaluru</option>
+<option value="Chennai">Chennai</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Pune">Pune</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><label for="Date">DOB</label></td>
+<td><input id="Date"type="Date">
+</td>
+</tr>
+<td><label for="time">Time</label></td>
+<td><input id="file"type="file">
+</td>
+</tr>
+
+
+<tr>
+<td><label for="mcolor">Select Color</label></td>
+<td><input id="mcolor"type="Color">
+</td>
+</tr>
+
+
+<tr>
+<td><label for="Country">Country</label></td>
+<td><input list="country"id="country"name="country">
+<datalist id="country">
+<option Value="India">
+<option Value="Russia">
+<option Value="Nepal">
+<option Value="Shri Lanka">
+<option Value="France">
+<option Value="Japan">
+<option Value="China">
+</detalista>
+</td>
+</tr>
+
+
+<tr>
+<td></td>
+<td><input type="submit"value="Register"><input type="reset"></td>
+</tr>
+
+
+</form>
+</table>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
